@@ -1,0 +1,183 @@
+body{
+    min-height:100vh;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar{
+    height:auto;
+}
+
+.scrolled{
+    background-color:rgb(234, 191, 234);
+    transition:background-color 500ms;
+}
+.row{
+    padding:0;
+    margin-top:70px;
+    margin-left:20px;
+}
+
+
+.museum-text{
+    margin-top:50px;
+    color:white;
+    font-size: 3rem;
+    padding:0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.museum2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.museum-text2{
+   
+    text-align: center;
+    height:auto;
+    padding:0 15px;
+}
+.museum-text2 h2{
+    color:palevioletred;
+}
+.museum-text2 p{
+    width: 100%;
+    line-height: 2em;
+    color:rgb(247, 149, 166);
+}
+.img-col-2{
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.museum-text2 img{
+   width:128px;
+   height:128px;
+   margin: 0 auto;
+}
+
+
+body{
+    background-color: rgb(250, 209, 216);
+}
+span{
+    color : rgb(244, 106, 106);
+}
+
+.row{
+    max-height:100%;
+}
+
+.img-col{
+    max-height:100%;
+    min-height:100%;
+    max-width:100%;
+}
+
+.img-col img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.navbar{
+    padding:0;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color:palevioletred;
+}
+.nav-link{
+    color:white;
+    font-size:1.4rem;
+  
+    transition:all 2s;
+}
+.nav-link:hover{
+    color:palevioletred;
+}
+@media (max-width:768px){
+    .row2{
+        display:flex;
+        flex-direction: column;
+        margin:100px 0;
+    }
+    .museum2{
+        width:100%;
+    }
+    .museum-text2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .museum-text2 p{
+        width:100%;
+    }
+}
+
+@media (min-width:768px){
+    .row2{
+        display:flex;
+        margin:100px 0;
+    }
+}
+@media (max-width:992px){
+    .museum-text{
+        display:none;
+    }
+    .museum-text2 img{
+        display:none;
+    }
+   .row{
+    margin:0;
+    padding:0;
+   }
+   .img-col{
+    padding:0;
+   }
+}
+@media (min-width:992px){
+    .row{
+        margin:0;
+    }
+    .img-col{
+        padding-right:0;
+    }
+    .img-col img{
+        min-width:100%;
+        margin-top:-10px;
+    }
+    .row2 img{
+
+    }
+
+}
+@media (max-width:1200px){
+  
+    .museum-text2 h2{
+        font-size: 2rem;
+        
+    }
+}
+@media (min-width:1200px){
+    .row{
+        margin:0;
+    }
+    .museum-text{
+        margin-top:50px;
+    }
+    .museum-text h2{
+        font-size: 3.8rem;
+        text-align: center;
+        padding:0;
+    }
+   
+    .img{
+        margin-top:10px;
+    }
+    
+}
